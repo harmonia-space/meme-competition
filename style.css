@@ -1,0 +1,71 @@
+* {
+    font-family: Roboto;
+}
+
+#appbar-title-mobile {
+    font-size: large;
+    margin-left: 20px;
+    color: black;
+}
+
+#profile-link-field {
+    margin-top: 27px;
+}
+
+.input-field input:focus+label {
+    color: #7b1fa2 !important;
+}
+
+.row .input-field input:focus {
+    border-bottom: 1px solid #7b1fa2 !important;
+    box-shadow: 0 1px 0 0 #7b1fa2 !important
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after {
+    background-color: #7b1fa2;
+    border-color: #7b1fa2;
+}
+
+.button-margin-right {
+    margin-right: 10px;
+}
+
+ul.dropdown-content.select-dropdown li span {
+    color: #000000;
+}
+
+.disabled-option {
+    display: none;
+}
+
+.spoiler {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #dddddd;
+}
+
+.clicktoreveal {
+    color: black;
+    margin: 5px;
+}
+
+/* Hide other parts */
+#part2 {
+    display: none;
+}
+
+#finished {
+    display: none;
+}
+
+#pending {
+    display: none;
+}
+
+#error {
+    display: none;
+}
