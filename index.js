@@ -15,7 +15,7 @@ function go_back() {
 
 function checkbox_changed() {
     var quora_url = document.getElementById("quora_url").value;
-    if (document.getElementById("accept-checkbox").checked == true && quora_url.includes("https://www.quora.com/profile/")) {
+    if (document.getElementById("accept-checkbox").checked == true && quora_url != "") {
         document.getElementById("part1-button").classList.remove("disabled")
     }
     else {
@@ -25,7 +25,7 @@ function checkbox_changed() {
 
 function text_changed() {
     var quora_url = document.getElementById("quora_url").value;
-    if (document.getElementById("accept-checkbox").checked == true && quora_url.includes("https://www.quora.com/profile/")) {
+    if (document.getElementById("accept-checkbox").checked == true && quora_url != "") {
         document.getElementById("part1-button").classList.remove("disabled")
     }
     else {
